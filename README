@@ -34,10 +34,12 @@ SA_lib.R -> Library of functions used in the scripts above to identify different
 #######################################################################################################################
 ###################################################### END NOTES ######################################################
 #######################################################################################################################
+
 For an easier use of these scripts download the whole folder tree into your Desktop. If you prefer to place the folder tree somewhere else, or to arrange the folders in a different manner, you’ll have to adapt all “*path” variables defined in each script so as to reflect those changes.
 More information regarding each script can be found in comments within them. 
 
 #######################################################################################################################
 ####################################################### CONTACT #######################################################
 #######################################################################################################################
+
 If you have any questions feel free to contact us (please state “EmulART” within the subject field) via: joao.silvestre@tecnico.ulisboa.pt
