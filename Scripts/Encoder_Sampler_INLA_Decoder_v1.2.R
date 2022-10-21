@@ -20,7 +20,7 @@ source("/media/joaomfras/TOSHIBA EXT/EmulaRT/Scripts/SA_lib.R")
 source("/media/joaomfras/TOSHIBA EXT/EmulaRT/Scripts/DAT_lib.R")
 
 counts_exp_ref <- 8
-counts_exp <- 7#Done: 6
+counts_exp <- 6
 
 # This parameter should reflect the ratio between the amount of photons in the
 # input and in the reference file
