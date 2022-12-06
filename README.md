@@ -4,9 +4,7 @@ This repository includes all scripts and custom libraries used in the work repor
 
 Should the user have no desire to test the training script ("VDAE_Model_Train_Custom_Loss_v1.1.R"), the trained VDAE model, which results are described in the manuscript, is also provided in the folder "Training_Results/VDAE_Model".
 
-#######################################################################################################################
-##################################################### INSTRUCTIONS ####################################################
-#######################################################################################################################
+## INSTRUCTIONS 
 
 To reproduce the results reported in the manuscript:
 
@@ -24,9 +22,7 @@ To reproduce the results reported in the manuscript:
 	
 The script "testing_norm.R" can be used at any point after step 2), and "Latent_Model_Features_Stats.R" can be used at any point after step 3).
 
-#######################################################################################################################
-####################################################### SCRIPTS #######################################################
-#######################################################################################################################
+## SCRIPTS 
 
 Encoder_Sampler_INLA_Decoder_v1.2.R -> Emulate a SKIRT simulation using the pipeline described in the report. It assumes ‘VDAE_Model_Train_Custom_Loss_v1.1.R’ was run beforehand, and that VDAE model exists in a particular file directory. If you wish to use a different model you should then change the segment of this script concerned with loading the neural network architecture, as well as dependent variables. 
 
@@ -40,9 +36,7 @@ Very_Plotter_v1.3.R -> Creates several PDF files with plots regarding emulations
 
 Very_Statte.R -> Creates SEDs and Residuals files, calculates and produces histograms for metrics to evaluate the quality of the emulations. It assumes ‘Encoder_Sampler_INLA_Decoder_v1.2.R’ was run beforehand and that a particular folder structure exists. 
 
-#######################################################################################################################
-################################################## CUSTOM LIBRARIES ###################################################
-#######################################################################################################################
+## CUSTOM LIBRARIES 
 
 List of libraries:
 
@@ -50,16 +44,12 @@ DAT_lib.R -> Library of functions used in the scripts above to perform different
 
 SA_lib.R -> Library of functions used in the scripts above to identify different types of spaxels and create index maps based on those.
 
-#######################################################################################################################
-###################################################### END NOTES ######################################################
-#######################################################################################################################
+### END NOTES 
 
 For an easier use of these scripts download the whole folder tree into your Desktop. If you prefer to place the folder tree somewhere else, or to arrange the folders in a different manner, you’ll have to adapt all “*path” variables defined in each script so as to reflect those changes.
 
 More information regarding each script can be found in comments within them. 
 
-#######################################################################################################################
-####################################################### CONTACT #######################################################
-#######################################################################################################################
+### CONTACT 
 
 If you have any questions feel free to contact us (please state “EmulART” within the subject field) via: joao.silvestre@tecnico.ulisboa.pt
