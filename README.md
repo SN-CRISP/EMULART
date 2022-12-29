@@ -1,6 +1,6 @@
 ## WELCOME
 
-This repository includes all scripts and custom libraries used in the work reported in Rino-Silvestre, J. et al (2022) under the folder "Scripts", as well as all SKIRT simulations used under the folder "Sources". All of our results can be reproduced with the files present in those two folders.
+This repository includes all scripts and custom libraries used in the work reported in [Rino-Silvestre, J. et al (2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv221015400R/abstract) under the folder "Scripts", as well as all SKIRT simulations used under the folder "Sources". All of our results can be reproduced with the files present in those two folders.
 
 Should the user have no desire to test the training script ("VDAE_Model_Train_Custom_Loss_v1.1.R"), the trained VDAE model, which results are described in the manuscript, is also provided in the folder "Training_Results/VDAE_Model".
 
