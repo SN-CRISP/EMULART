@@ -52,4 +52,4 @@ More information regarding each script can be found in comments within them.
 
 ### CONTACT 
 
-If you have any questions feel free to contact us (please state “EmulART” within the subject field) via: joao.silvestre@tecnico.ulisboa.pt
+If you have any questions feel free to contact us (please state “EmulART - Repo Questions” within the subject field) via: joao.silvestre@tecnico.ulisboa.pt
